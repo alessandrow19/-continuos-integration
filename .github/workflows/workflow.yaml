@@ -14,7 +14,7 @@ jobs:
             node-version: 18.
         - name: run install 
           run: |
-            npm install
-            npm tsc
+            npm install   
+            npm start
             node .\dist\index.js
             
