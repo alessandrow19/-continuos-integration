@@ -1,6 +1,6 @@
 name: Continus integrations
 
-on: [pull_request]
+on: [push]
 
 jobs:
    continuos-integration:
@@ -15,6 +15,6 @@ jobs:
         - name: run install 
           run: |
             npm install   
+            npm build
             npm start
-            node .\dist\index.js
             
