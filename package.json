@@ -1,17 +1,20 @@
 {
-  "name": "git_actions",
+  "name": "git_actions_teste",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc  -p tsconfig.json"
-
-    
+    "build": "tsc  -p tsconfig.json",
+    "start": "node dist/index.js"
   },
   "author": "alessandro willian nogueira",
   "license": "ISC",
   "devDependencies": {
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
