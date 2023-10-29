@@ -1,0 +1,20 @@
+name: Continus integrations
+
+on: [pull_request]
+
+jobs:
+   continuos-integration:
+      runs-on: windows-latest
+
+      steps:
+        - uses: actions/checkout@v3
+        - name: run install 
+        - uses: actions/setup-node@v2
+          with: 
+            node-version: 18.
+        - name: run install 
+          run: |
+            npm install
+            npm tsc
+            node .\dist\index.js
+            
