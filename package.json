@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1",   
+    "build": "C:\\Users\\c134811\\AppData\\Roaming\\npm\\tsc -p tsconfig.json",
     "start": "node dist/index.js"
   },
   "author": "alessandro willian nogueira",
