@@ -1,16 +1,24 @@
 {
-  "name": "git_actions",
+  "name": "git_actions_teste",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-
-    
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js ./test",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
   },
   "author": "alessandro willian nogueira",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-typescript": "^7.23.2",
+    "@types/jest": "^29.5.6",
+    "jest": "^29.7.0",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ts-jest": "^29.1.1"
   }
 }
