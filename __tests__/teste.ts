@@ -20,8 +20,7 @@ describe("Pessoa", () => {
       const idade = 20;
   
       // Act
-      const pessoa = new Pessoa(nome, idade);
-  
+      const pessoa = new Pessoa(nome, idade);  
       // Assert
       expect(pessoa.getIdade()).toBe(idade);
     });
