@@ -1,5 +1,5 @@
 // Teste para verificar se a classe `Pessoa` funciona corretamente.
-
+import {Pessoa } from "../src/Pessoa"
 describe("Pessoa", () => {
     it("deve criar uma pessoa com nome e idade", () => {
       // Arrange
@@ -38,14 +38,4 @@ describe("Pessoa", () => {
     });
   });
   
-  class Pessoa {
-    constructor(public nome: string, public idade: number) {}
   
-    getIdade(): number {
-      return this.idade;
-    }
-  
-    getNome(): string {
-      return this.nome;
-    }
-  }
