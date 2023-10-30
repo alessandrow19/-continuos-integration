@@ -11,6 +11,7 @@
   "author": "alessandro willian nogueira",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-typescript": "^7.23.2",
     "@types/jest": "^29.5.6",
     "jest": "^29.7.0",
     "ts-node-dev": "^2.0.0",
