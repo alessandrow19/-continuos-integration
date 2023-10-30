@@ -11,7 +11,7 @@ app.post('/', (request, response) => {
   const user = request.body as RequestBody;
 
   return response.send({
-    message: `Hello ${user.name}`,
+    message: `Hellos ${user.name}`,
   });
 });
 
